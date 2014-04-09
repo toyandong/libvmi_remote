@@ -1,0 +1,22 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        1     0.00     0.00  mit_main
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/1           main [6]
+[1]      0.0    0.00    0.00       1         mit_main [1]
+-----------------------------------------------
+
+Index by function name
+
+   [1] mit_main

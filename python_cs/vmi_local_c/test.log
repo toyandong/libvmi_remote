@@ -1,0 +1,12 @@
+CPU: CPU with timer interrupt, speed 1596.04 MHz (estimated)
+Profiling through timer interrupt
+samples  %        image name               symbol name
+2        20.0000  libglib-2.0.so.0.3200.4  /lib/x86_64-linux-gnu/libglib-2.0.so.0.3200.4
+1        10.0000  libc-2.15.so             _IO_file_xsputn@@GLIBC_2.2.5
+1        10.0000  libc-2.15.so             _IO_getline_info
+1        10.0000  libc-2.15.so             __ctype_b_loc
+1        10.0000  libc-2.15.so             __memcpy_sse2
+1        10.0000  libc-2.15.so             __memcpy_ssse3_back
+1        10.0000  libc-2.15.so             strchrnul
+1        10.0000  libc-2.15.so             vfprintf
+1        10.0000  libpthread-2.15.so       _pthread_cleanup_pop_restore

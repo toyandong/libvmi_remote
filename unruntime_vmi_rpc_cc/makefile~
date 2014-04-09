@@ -1,0 +1,6 @@
+all: server client
+
+server: rvmi_server.c libvmi_rpc_server.c
+	gcc rvmi_server.c libvmi_rpc_server.c -o server
+client: client.c libvmi_rpc_client.c
+	gcc client.c libvmi_rpc_client.c  -o client
